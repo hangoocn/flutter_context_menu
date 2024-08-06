@@ -80,15 +80,6 @@ final class MenuItem<T> extends ContextMenuItem<T> {
             style: textStyle,
             child: Row(
               children: [
-                SizedBox.square(
-                  dimension: 32.0,
-                  child: Icon(
-                    icon,
-                    size: 16.0,
-                    color: foregroundColor,
-                  ),
-                ),
-                const SizedBox(width: 4.0),
                 Expanded(
                   child: Text(
                     label,
